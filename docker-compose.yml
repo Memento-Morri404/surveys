@@ -3,8 +3,8 @@ services:
     image: postgres:16.4
     restart: always
     environment:
-      POSTGRES_PASSWORD: admin
+      POSTGRES_PASSWORD: J4jHWDDsb43xugbC8XZVJN1
       POSTGRES_USER: admin
-      POSTGRES_DB: saas-starter-kit
+      POSTGRES_DB: witchly_surveys
     ports:
       - 5432:5432
